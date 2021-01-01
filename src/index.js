@@ -13,9 +13,9 @@ ReactDOM.render(<App />, document.getElementById("root"));
 // const newNumbers = numbers.filter((num) => num < 10);
 
 // // Reduce - Accumulate a value by doing something to each item in an array.
-// var newNumber = numbers.reduce((accumulator, currentNumber) => {
-//   return accumulator + currentNumber;
-// });
+// var newNumber = numbers.reduce(
+//   (accumulator, currentNumber) => accumulator + currentNumber
+// );
 
 // //Find - find the first item that matches from an array.
 // const newNumber = numbers.find((num) => num > 10);
